@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/en"
+  to = "/en.html"
+  status = 200
+  query = {path = ":path"}
