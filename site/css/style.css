@@ -1827,9 +1827,9 @@ a:focus {
   -ms-border-radius: 50%;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transition: 1s 2.3s ease-in-out;
-  -o-transition: 1s 2.3s ease-in-out;
-  transition: 1s 2.3s ease-in-out;
+  -webkit-transition: 0.5s 0.8s ease-in-out;
+  -o-transition: 0.5s 0.8s ease-in-out;
+  transition: 0.5s 0.8s ease-in-out;
 }
 
 @media (max-width: 1199px) {
