@@ -3026,6 +3026,10 @@ a:focus {
   }
 }
 
+.inportant-people-section .img-holder {
+  overflow: hidden;
+}
+
 .inportant-people-section .grid .img-holder {
   overflow: hidden;
 }
@@ -3054,7 +3058,7 @@ a:focus {
   filter: grayscale(0);
 }
 
-.inportant-people-section .grid .details {
+.inportant-people-section .details {
   background: #fff;
   border: 1px solid #f3f2f2;
   padding: 30px 15px 25px;
