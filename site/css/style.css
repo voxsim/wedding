@@ -1715,10 +1715,10 @@ a:focus {
 
 .hero .wedding-announcement {
   width: 100%;
-  height: 100%;
+  height: 70%;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 30%;
   z-index: 101;
   text-align: center;
   display: table;
@@ -1979,7 +1979,7 @@ a:focus {
 }
 
 .static-hero {
-  background: url("../images/slider/slide-1.jpg") center center/cover no-repeat local;
+  background: url("../images/header.jpg") center center/cover no-repeat local;;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -2007,7 +2007,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/footer.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
