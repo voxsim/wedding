@@ -3447,23 +3447,39 @@ a:focus {
   max-width: 100%;
 }
 
-.satispay {
-  display: inline-block;
-  position: relative;
-  background-image: url(https://www.satispay.com/static/d1b762bb386ed5a7dcfd730beef3c8b9/fe5dc/qr-code-box.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 252px;
-  min-width: 264px;
+@media screen and (min-width: 992px) {
+  .satispay-desktop {
+    display: inline-block;
+    position: relative;
+    background-image: url(https://www.satispay.com/static/d1b762bb386ed5a7dcfd730beef3c8b9/fe5dc/qr-code-box.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 252px;
+    min-width: 264px;
+  }
+
+  .satispay-desktop img {
+    display: inline-block;
+    position: relative;
+    top: 38px;
+    left: -1px;
+    height: 185px;
+    min-width: 185px;
+  }
+
+  .satispay-mobile {
+    display: none;
+  }
 }
 
-.satispay img {
-  display: inline-block;
-  position: relative;
-  top: 38px;
-  left: -1px;
-  height: 185px;
-  min-width: 185px;
+@media (max-width: 991px) {
+  .satispay-desktop {
+    display: none;
+  }
+
+  .satispay-mobile {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
