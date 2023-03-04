@@ -1880,13 +1880,14 @@ a:focus {
 }
 
 .static-hero {
-  background: url("../images/header.jpg") center center/cover no-repeat local;;
+  background: url("../images-efrem-gio/img_06.jpg") center center/cover no-repeat local;
   width: 100%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 50;
+  z-index: 50;background-position-y: 38%;
+
 }
 
 .static-hero:before {
@@ -1897,6 +1898,7 @@ a:focus {
   position: absolute;
   left: 0;
   top: 0;
+  transform: scaleX(-1);
 }
 
 .home-shade .static-hero {
