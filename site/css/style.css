@@ -1,7 +1,7 @@
 /*---------------------------
 	Fonts
 ----------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Gowun+Batang:400,600,700");
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: "Gowung Batang", sans-serif;
   background-color: #fff;
   font-size: 18px;
   font-size: 1rem;
