@@ -1248,8 +1248,8 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
     xRange: 0.8,
     yRange: 0.1,
     zRange: 1.0,
-    ambient: '#5e9a8e',
-    diffuse: '#5e9a8e',
+    ambient: 'rgba(126,146,133,1)',
+    diffuse: 'rgba(126,146,133,1)',
     speed: 0.0001
   };
 
