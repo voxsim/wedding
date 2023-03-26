@@ -3353,6 +3353,14 @@ a:focus {
 /*--------------------------------------------------------------
 #1.4	getting-there-section
 --------------------------------------------------------------*/
+.green-section {
+  background-color: rgba(126,146,133,1);
+}
+
+.white-text p{
+  color: white;
+}
+
 .getting-there-section {
   background-color: rgba(126,146,133,1);
 }
@@ -3406,7 +3414,6 @@ a:focus {
     padding-right: 75px;
     text-align: center;
     color: #fff;
-    /** border-right: 1px solid #548a7f; **/
   }
 }
 
@@ -3414,7 +3421,7 @@ a:focus {
   .getting-there-section .content > .col:first-child {
     padding-bottom: 35px;
     margin-bottom: 35px;
-    border-bottom: 1px solid #548a7f;
+color: #fff;
   }
 }
 
